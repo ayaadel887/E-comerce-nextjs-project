@@ -1,0 +1,19 @@
+.listo {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+  width: 32vw; /* a7tagnah 3ashan yb3do 3n b3d*/
+}
+.container {
+  background-color: #00ffdd;
+  display: flex;
+  justify-content: space-around;
+  width: 100%; /* a7tagnah 3ashan yb3do 3n b3d*/
+  padding: 2vw;
+}
+/*0E185F
+#2FA4FF
+#00FFDD
+#E8FFC2*/
