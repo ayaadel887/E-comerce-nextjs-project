@@ -3,9 +3,12 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  text-align: center;
 }
 body {
   font-family: "Roboto", sans-serif;
+  background-color: #e8ffc2;
+  color: #0e185f;
 }
 a {
   text-decoration: none;
