@@ -1,17 +1,28 @@
-.listo {
+.nav {
+  background-color: #00ffdd;
+  padding: 2vw 0;
+  box-shadow: 2px 1px 1px #ccc;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%; /* a7tagnah 3ashan yb3do 3n b3d*/
+}
+.container ul {
   list-style-type: none;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-
   width: 32vw; /* a7tagnah 3ashan yb3do 3n b3d*/
 }
-.container {
-  background-color: #00ffdd;
-  display: flex;
-  justify-content: space-around;
-  width: 100%; /* a7tagnah 3ashan yb3do 3n b3d*/
-  padding: 2vw;
+.container ul li {
+  margin-left: 30px;
+}
+.container ul li a {
+  color: rgb(87, 86, 86);
+}
+.logo {
+  font-size: 2rem;
 }
 /*0E185F
 #2FA4FF

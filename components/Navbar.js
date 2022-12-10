@@ -2,10 +2,10 @@ import Link from "next/link";
 import style from "./../styles/Nav.module.css";
 const Navbar = () => {
   return (
-    <nav>
-      <div className={style.container}>
-        <div className="logo">ShopShop</div>
-        <ul className={style.listo}>
+    <nav className={style.nav}>
+      <div className={`${style.container} container`}>
+        <div className={style.logo}>ShopShop</div>
+        <ul>
           <li>
             <Link href="/">Home</Link>
           </li>
