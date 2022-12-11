@@ -1,11 +1,12 @@
 import Image from "next/image";
-
+import Link from "next/link";
+import style from "./../styles/product.module.css";
 const Product = ({ product }) => {
   const { title, image, price } = product;
   console.log(product.title, "product");
   return (
     <>
-      <div className="prduct">
+      <div className={style.product}>
         {/*Error: Invalid src prop 
       hostname 
          "fakestoreapi.com" 
@@ -21,13 +22,15 @@ module.exports = {
         <Image
           src={product.image}
           alt="Picture of the author"
-          width={500}
-          height={500}
+          width={200}
+          height={200}
+          className={style.img}
         />
         <ul>
           <li>{title}</li>
           <li>{price}$</li>
         </ul>
+        <Link href="productDetails">more detalis</Link>
       </div>
     </>
   );
